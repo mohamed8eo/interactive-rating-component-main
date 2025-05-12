@@ -29,7 +29,7 @@ const Rating = ({ onSubmit }: RatingProps) => {
                 key={index} 
                 onClick={() => setSelected(number)}
                 className={`
-                  text-white text-[16px] w-[65px] h-[65px] font-[400] rounded-full 
+                  text-white text-[16px] w-[55px] h-[55px] sm:w-[65px] sm:h-[65px] font-[400] rounded-full 
                   flex justify-center items-center cursor-pointer
                   transition-colors duration-200 ease-in-out
                   ${selected === number 

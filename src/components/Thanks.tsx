@@ -11,8 +11,8 @@ const Thanks = ({rating}:ThanksProps) => {
         <p>{`You selected ${rating} out of 5`}</p>
       </div>
       <div className="flex flex-col justify-center items-center">
-        <h1 className="text-white text-4xl font-bold mb-4">Thank you</h1>
-        <p className="text-[16px] text-center text-[#959eac] leading-6 w-[366px]">
+        <h1 className="text-white text-4xl font-bold mb-4">Thank you!</h1>
+        <p className="sm:text-[16px] text-[20px] w-[392px] text-center text-[#959eac] leading-6 sm:w-[366px]">
           We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
         </p>
       </div>
