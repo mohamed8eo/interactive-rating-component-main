@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root{
+  --Orange-500: #fb7413;
+
+  --White: #ffffff;
+  --Grey-500: #959eac;
+  --Grey-900: #252d37;
+  --Grey-950: #121417;
+}
+
+body{
+    font-family: "Overpass", sans-serif;
+    height: 100vh;
+    background-color: var(--Grey-950);
+}
